@@ -20,10 +20,10 @@ const multiply = function (numbers) {
 };
 
 const power = function (number, powerNumber) {
-  return number ** powerNumber;
+  return number ** powerNumber; //Could have also used Math.pow(a, b) here but I wasn't sure if Math library was native or needed importing.
 };
 
-//This factorial method doesn't seem very clean but it works. Compare to the TOP solution for code simplicity/elegance.
+//This factorial method doesn't seem very clean but it works. Compare to the TOP solution for code simplicity/elegance. The solutions show an option for a clean recursive solution.
 const factorial = function (number) {
   let facTotal = 1;
   while (number >= 1) {
